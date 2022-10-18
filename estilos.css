@@ -1,0 +1,25 @@
+body {
+    background-color: #cccccc;
+    min-height: 100vh;
+    min-width: 100vw;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.carousel-item.active {
+    min-width: 100vw;
+    height: 200px;
+    display: grid;
+    justify-content: center;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: black;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    cursor: pointer;
+}
